@@ -1,0 +1,48 @@
+.intro__container {
+  padding-top: 234px;
+  padding-bottom: 250px;
+  background: url("../img/intro.png") no-repeat top;
+  background-size: contain;
+  background-position: right;
+}
+
+.intro__project {
+  border: 1px solid $blue;
+  margin-left: 30px;
+
+  &:hover {
+    opacity: 0.7;
+    transition: 1s ease background-color;
+    border-color: $blue;
+    color: wheat;
+    background-color: $blue;
+  }
+}
+
+.intro__title {
+  font-size: 54px;
+  line-height: 74px;
+  margin: 0px;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #181a3f;
+  width: 630px;
+}
+
+.intro__text {
+  width: 462px;
+  margin: 0px;
+  margin-top: 13px;
+  margin-bottom: 74px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .intro__container {
+    background-image: url(../img/intro@2x.png);
+  }
+}

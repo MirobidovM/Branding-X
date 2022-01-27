@@ -1,0 +1,31 @@
+.tell {
+  background-color: #dad9d6;
+}
+
+.tell__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 182px 0px 176px;
+}
+
+.tell__name {
+  font-size: 60px;
+  line-height: 74px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 375px;
+  color: #181a3f;
+}
+
+.tell-mail {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.tell-mail__link {
+  font-size: 32px;
+  line-height: 49px;
+  color: #181a3f;
+}
